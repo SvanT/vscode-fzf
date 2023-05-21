@@ -1,6 +1,6 @@
 {
-  "name": "vscode-fzf",
-  "displayName": "vscode-fzf",
+  "name": "svant-vscode-fzf",
+  "displayName": "svant-vscode-fzf",
   "repository": {
     "type": "git",
     "url": "https://github.com/SvanT/vscode-fzf.git"
