@@ -1,0 +1,21 @@
+{
+  "name": "vscode-fzf",
+  "displayName": "vscode-fzf",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.45.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:fzf"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [{
+      "command": "fzf",
+      "title": "FZF"
+    }]
+  }
+}
