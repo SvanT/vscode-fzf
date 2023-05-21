@@ -1,6 +1,10 @@
 {
   "name": "vscode-fzf",
   "displayName": "vscode-fzf",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SvanT/vscode-fzf.git"
+  },
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.45.0"
@@ -17,5 +21,6 @@
       "command": "fzf",
       "title": "FZF"
     }]
-  }
+  },
+  "publisher": "SvanteBoberg"
 }
