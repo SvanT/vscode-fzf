@@ -17,10 +17,12 @@
   ],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "fzf",
-      "title": "FZF"
-    }]
+    "commands": [
+      {
+        "command": "fzf",
+        "title": "FZF"
+      }
+    ]
   },
   "publisher": "SvanteBoberg"
 }
