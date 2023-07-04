@@ -21,6 +21,8 @@ function activate(context) {
 
     const listener = vscode.window.onDidChangeActiveTerminal(async () => {
       if (terminal.exitStatus !== undefined) {
+        vscode.commands.executeCommand("workbench.action.closePanel");
+
         const lines = (await readFile(tempPath, "utf8")).split("\n");
         listener.dispose();
         await rm(tempDir, { recursive: true });
